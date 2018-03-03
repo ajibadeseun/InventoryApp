@@ -3,13 +3,14 @@ This app help keep track of the products you have in your warehouse or store
 
 #Screenshots
 
-<img src="https://github.com/ajibadeseun/InventoryApp/commit/c2bb266ca83c30e1f021b22ae42b12234f7ff22d" width="400" height="700/>
+<img src="https://github.com/ajibadeseun/InventoryApp/commit/c2bb266ca83c30e1f021b22ae42b12234f7ff22d" width="400" height="700 />
 
-Gradle
+#Gradle
 
 apply plugin: 'com.android.application'
 
 android {
+
     compileSdkVersion 26
     defaultConfig {
         applicationId "com.treble.inventoryapp"
@@ -28,6 +29,7 @@ android {
 }
 
 dependencies {
+
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:26.1.0'
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
