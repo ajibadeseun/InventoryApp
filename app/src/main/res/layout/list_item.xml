@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout for a single list item in the list of pets -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:baselineAligned="false"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/photo"
+            android:layout_width="0dp"
+            android:layout_height="72dp"
+            android:layout_weight="1.2"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="ProfilePics"
+            android:src="@drawable/imageview_placeholder"
+            />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1.4"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/name"
+            tools:text="Speaker"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#2B3D4D"  />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/dollar_sign"
+                android:layout_width="wrap_content"
+                android:src="@drawable/dollar_sign"
+
+                android:layout_height="24dp" />
+
+            <TextView
+                android:id="@+id/price"
+                tools:text="20"
+                android:layout_toEndOf="@+id/dollar_sign"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:fontFamily="sans-serif"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="#AEB6BD"
+                />
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/quantity"
+            tools:text="2"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:layout_marginStart="16dp"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="#AEB6BD"  />
+
+
+        <Button
+            android:id="@+id/sale"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginEnd="32dp"
+            android:fontFamily="sans-serif"
+            android:text="Sale"
+            android:background="@color/colorPrimaryDark"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:textColor="@android:color/white" />
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

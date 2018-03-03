@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+    <string name="title_activity_editor">EditorActivity</string>
+    <string name="overview">Overview</string>
+    <string name="click_the_image_above_to_add_photo">Click the image above to add photo</string>
+    <string name="edit_photo_text">Click the image to change photo</string>
+</resources>
