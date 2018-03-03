@@ -9,7 +9,7 @@ This app help keep track of the products you have in your warehouse or store
 
 <img src="https://github.com/ajibadeseun/InventoryApp/blob/master/Screenshot_20180303-143512.png" width="400" height="700" />
 
-<img src="https://github.com/ajibadeseun/InventoryApp/blob/master/Screenshot_20180303-143518.png" width="400" height="700"
+<img src="https://github.com/ajibadeseun/InventoryApp/blob/master/Screenshot_20180303-143518.png" width="400" height="700" />
 
 # Gradle
 The build.gradle(Module:app) file should look like the following:
