@@ -3,7 +3,7 @@ This app help keep track of the products you have in your warehouse or store
 
 #Screenshots
 
-<img src="https://github.com/ajibadeseun/InventoryApp/blob/master/Screenshot_20180303-143426.png" width="400" height="700 />
+<img src="https://github.com/ajibadeseun/InventoryApp/blob/master/Screenshot_20180303-143426.png" width="400" height="700" />
 
 #Gradle
 
